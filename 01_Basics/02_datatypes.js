@@ -13,3 +13,13 @@ let age; //undefined
 
 console.log(typeof userName);
 console.log(typeof age);
+
+//datatypes
+
+//A. primitive
+//7 types = string, number, boolean, null, undefined, BigInt, symbol.
+
+
+
+//B. reference type (non-primtive)
+// Array, Objects, Functions.
