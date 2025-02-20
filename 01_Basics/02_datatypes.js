@@ -37,3 +37,6 @@ console.log(typeof age);
 //        Function  =>  function
 //        Object  =>  object
 
+
+//memories
+//stack(primitive) -> copied value (Call by value),  heap(Non-primitive) -> reference of object(call by reference)
