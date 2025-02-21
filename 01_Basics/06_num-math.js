@@ -33,7 +33,7 @@ console.log((Math.random()*10) + 1);
 const max = 10;
 const min = 0;
 
-console.log(Math.floor(Math. (max - min) + 1));
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
 
