@@ -3,7 +3,7 @@
 
 let myArr = [0, 1, 2, 3, 4];
 
-console.log(myArr[2]);
+// console.log(myArr[2]);
 
 //array methods
 myArr.push(5);
@@ -18,4 +18,22 @@ myArr.shift();
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(9));
 
-console.log(myArr);
+// const newArray = myArr.join()
+// console.log(myArr);
+// console.log(newArray);
+
+
+//slice and splice
+//slice doesn't manipulate he original array 
+//splice does manipulate he original array 
+
+console.log("A", myArr);
+
+const myn1 = myArr.slice(1,3);
+console.log(myn1);
+console.log("B", myArr);
+
+
+const myn2 = myArr.splice(1,3);
+console.log(myn2);
+console.log("C", myArr); //manipulated array 
