@@ -35,7 +35,7 @@ const obj3= {...obj1, ...obj2}
 // console.log(Object.entries(socialApp));
 // console.log(Object.hasOwnProperty("name"));
 
-//deconstuct object
+//destructure object
 const info = {
     book : "javascript",
     price : "950",
