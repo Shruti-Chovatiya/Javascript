@@ -29,8 +29,38 @@ function loginUserMsg(username = "john") {
     return `${username} just logged in`
 }
 
-console.log(loginUserMsg());
+// console.log(loginUserMsg());
 
 // const print = loginUserMsg("shruti");
 // console.log(print);
 
+// function calcCartValue(...num1) {
+//     return num1;
+// }
+// console.log(calcCartValue(200, 500, 700));
+
+const user = {
+    userId : 1,
+    userDetail : "student"
+}
+
+function objectOfUser(anyobject) {
+    console.log(`The id of user is ${anyobject.userId} and the detail of that user is ${anyobject.userDetail}`);
+    
+}
+
+// objectOfUser(user);
+
+objectOfUser({
+     userId : 1,
+    userDetail : "student"
+})
+
+
+const myNewArr = [100, 200, 500, 900];
+
+function returnSecondValue(getarray) {
+    return getarray[3]
+}
+
+console.log(returnSecondValue(myNewArr));
